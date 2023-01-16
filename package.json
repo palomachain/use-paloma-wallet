@@ -1,12 +1,27 @@
 {
-  "name": "use-paloma-nest",
+  "name": "@palomachain/use-paloma-nest",
   "version": "0.0.1",
-  "description": "",
+  "description": "used with paloma wallet",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Htrfdt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palomachain/use-paloma-wallet.git"
+  },
+  "author": "",
+  "keywords": [
+    "paloma",
+    "stablecoin",
+    "cryptocurrency",
+    "blockchain",
+    "smart-contracts",
+    "wasm",
+    "altcoin",
+    "altcoins",
+    "wallet"
+  ],
   "license": "MIT",
   "dependencies": {
      "@palomachain/paloma.js": "^3.0.24"
