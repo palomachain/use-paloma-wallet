@@ -1,6 +1,6 @@
 {
   "name": "@palomachain/use-paloma-nest",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "used with paloma wallet",
   "main": "index.js",
   "scripts": {
