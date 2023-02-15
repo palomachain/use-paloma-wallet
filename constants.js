@@ -1,0 +1,11 @@
+const EVENT_DATA_SOURCE = "paloma-nest-gateway";
+
+const Messages = {
+	EXTERNAL_CONNECT_WALLET: "EXTERNAL_CONNECT_WALLET",
+	EXTERNAL_CONNECT_WALLET_RESPONSE: "EXTERNAL_CONNECT_WALLET_RESPONSE",
+}
+
+module.exports = {
+  EVENT_DATA_SOURCE,
+  Messages
+}

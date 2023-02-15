@@ -1,11 +1,6 @@
 // test version - paloma
 
-const EVENT_DATA_SOURCE = "paloma-nest-gateway";
-
-const Messages = {
-	EXTERNAL_CONNECT_WALLET: "EXTERNAL_CONNECT_WALLET",
-	EXTERNAL_CONNECT_WALLET_RESPONSE: "EXTERNAL_CONNECT_WALLET_RESPONSE",
-}
+const { EVENT_DATA_SOURCE, Messages } = require('./constants')
 
 function connect(onMessageReceived) {
 	if (typeof window !== "undefined") {
@@ -45,4 +40,4 @@ const PalomaWalletConnectLibrary = {
 	connect: connect,
 }
 
-export default PalomaWalletConnectLibrary;
+module.exports = PalomaWalletConnectLibrary;
